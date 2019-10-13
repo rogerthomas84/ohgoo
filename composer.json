@@ -1,0 +1,20 @@
+{
+  "name": "rogerthomas84/ohgoo",
+  "description": "OhGoo is a simple OAuth library for authenticating Google users with your application.",
+  "keywords": ["ohgoo","auth","authentication","oauth"],
+  "homepage": "https://github.com/rogerthomas84/ohgoo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roger Thomas",
+      "email": "rogere84@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.3",
+  },
+  "autoload": {
+    "psr-0": { "OhGoo": "src" }
+  }
+}
